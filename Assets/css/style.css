@@ -1,0 +1,35 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+    background-image: url("img/BG.jpg");
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+header {
+    position: fixed;
+    display: flex;
+    height: 100px;
+    width: 100%;
+    align-items: center;
+}
+h1 {
+    display: flex;
+    padding: 5px;
+    border: 5px;
+    border: red;
+    border-radius: 5px;
+    flex: 0 0 200;
+    width: 250px;
+    height: 70px;
+    background-color: lightgrey;
+    align-items: center;
+    justify-content: center;
+}
+
+#links {
+    display: flex;
+    align-items: flex-end;
+}
